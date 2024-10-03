@@ -1,52 +1,5 @@
 
 
-//Standard news data
-//Uncomment the below code to display standard news data
-
-
-newsData = [{
-
-    "title": "Title 1",
-    "summary": "In the heart of the bustling city, amidst the cacophony of honking horns and hurried footsteps, there lies a serene oasis, hidden from the chaos. It's a quaint café, where time seems to slow down, and the aroma of freshly brewed coffee dances in the air. Patrons sit in cozy corners, lost in their thoughts or engaged in animated conversations. The soft murmur of voices mingles with the gentle melody playing in the background, creating a symphony of tranquility. Outside, the world rushes by, but here, in this little haven, there's only peace and warmth.",
-    "url": "https://www.google.com"
-},
-{
-    "title": "Title 2",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, odio et pulvinar ultricies, enim odio vehicula elit, at fermentum lacus diam ut metus. Vivamus sit amet felis vel sem convallis interdum eu at mauris. Quisque ut accumsan nunc. Aliquam ac lacinia ipsum. Integer posuere tincidunt est, id condimentum nisi fermentum nec. Vestibulum gravida purus nec sapien tincidunt, vel tincidunt mi auctor. Nullam sed elit ac ipsum feugiat lacinia. Nam quis ipsum non arcu fringilla fermentum",
-    "url": "https://www.google.com"
-},
-{
-    "title": "Title 3",
-    "summary": "Summary 3",
-    "url": "https://www.google.com"
-},
-{
-    "title": "Title 2",
-    "summary": "Summary 2",
-    "url": "https://www.google.com"
-},
-{
-    "title": "Title 3",
-    "summary": "Summary 3",
-    "url": "https://www.google.com"
-},
-{
-    "title": "Title 2",
-    "summary": "Summary 2",
-    "url": "https://www.google.com"
-},
-{
-    "title": "Title 3",
-    "summary": "Summary 3",
-    "url": "https://www.google.com"
-},
-{
-    "title": "Title 3",
-    "summary": "Summary 3",
-    "url": "https://www.google.com"
-}]
-
-
 
 // Function to filter news based on search input
 $(document).ready(function () {

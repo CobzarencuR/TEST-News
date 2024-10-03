@@ -1,21 +1,4 @@
-//Fetch news data from Flask server and display it on the webpage
-$(document).ready(function () {
-    function fetchNewsAndDisplay() {
-        $.ajax({
-            url: '/get_data_from_flask',  // Endpoint to fetch data
-            method: 'GET',
-            success: function (response) {
-                displayNews(response);
-            },
-            error: function (xhr, status, error) {
-                console.error(error);
-            }
-        });
 
-    }
-    displayNews(newsData);
-    setInterval(fetchNewsAndDisplay, 8000);
-});
 
 //Standard news data
 //Uncomment the below code to display standard news data
@@ -64,21 +47,6 @@ newsData = [{
 }]
 
 
-// Function to display news data
-function displayNews(newsData) {
-    console.log("inDisplay");
-    var newsContainer = $('#news-container');
-    newsData.forEach(function (news) {
-        console.log("HEERE");
-        var newsBox = $('<div class="news-box"></div>');
-
-        newsBox.append('<h2>' + news.title + '</h2>');
-        newsBox.append('<p>' + news.summary + '</p>');
-        newsBox.append('<a href="' + news.url + '">Read More</a>');
-
-        newsContainer.append(newsBox);
-    });
-}
 
 // Function to filter news based on search input
 $(document).ready(function () {
